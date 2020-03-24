@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chincrypt</title>
+    <style>
+    body {
+      min-width: 300px;
+    }
+    p {
+      font-size: 16px;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      resize: none;
+      font-size: 13px;
+    }
+    button {
+      font-size: 14px;
+      border-radius: 4px;
+      margin: 0px 3px 3px 0px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <p>Put anything that can be recognized by UTF-8 and encrypt it into morse:</p>
+    <textarea id="inp"></textarea>
+    <button id="b_en">Encode</button>
+    <button id="b_de">Decode</button>
+    </br>
+    <textarea id="outp"></textarea>
+    <button id="b_co">Copy output!</button>
+    <script type="text/javascript" src="xmorse.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
